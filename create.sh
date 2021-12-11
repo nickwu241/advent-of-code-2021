@@ -7,8 +7,9 @@ fi
 
 mkdir "day$1"
 touch "day$1/input"
+touch "day$1/example"
 cat <<EOF > "day$1/day$1.py"
-#!/usr/bin/env python
+#!/usr/bin/env python3
 with open('input') as f:
     pass
 
